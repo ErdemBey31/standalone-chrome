@@ -13,12 +13,5 @@ options=options
 driver.maximize_window()
 time.sleep(10)
 #navigate to browserstack.com
-driver.get("https://www.browserstack.com/")
-time.sleep(10)
-#click on the Get started for free button
-driver.find_element_by_link_text("Get started free").click()
-time.sleep(10)
-#close the browser
-driver.close()
-driver.quit()
-print("Test Execution Successfully Completed!")
+driver.get("https://www.google.com")
+
