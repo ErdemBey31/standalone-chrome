@@ -1,5 +1,7 @@
 FROM selenium/standalone-chrome:latest
 
+RUN apt update -y
+
 RUN pip install selenium -y
 
 RUN apt install chromium -y
