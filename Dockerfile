@@ -1,4 +1,4 @@
-FROM selenium/standalone-chrome:latest
+FROM python:3.9
 
 RUN apt update -y
 
